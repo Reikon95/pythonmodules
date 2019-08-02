@@ -37,3 +37,11 @@ print(sorted_temps)
 large_set = np.genfromtxt('household_income.csv', delimiter=',')
 
 large_set_median = np.median(large_set)
+
+#Calculate percentiles
+
+patrons = np.array([ 2, 6, 14, 4, 3, 9, 1, 11, 4, 2, 8])
+
+thirtieth_percentile = np.percentile(patrons, 30)
+
+seventieth_percentile = np.percentile(patrons, 70)
