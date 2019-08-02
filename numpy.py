@@ -5,5 +5,5 @@ wing_widths = [7.02, 6.84, 6.56, 6.44, 0.0, 0.0, 4.92, 6.35, 6.07, 6.68, 6.91, 7
                0.0, 6.99, 8.56, 5.20, 5.76, 6.87, 6.41, 0.0, 7.36, 5.74, 7.06, 6.44, 8.06, 7.86]
             
 
-print(np.mean(wing_widths))
+print(np.mean(wing_widths)) #Retyrbs the mean of the dataset
 print(np.amax(wing_widths))
